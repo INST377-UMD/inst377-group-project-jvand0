@@ -1,0 +1,155 @@
+<html>
+    <head>
+        <style>
+            body {
+                font-family: 'Times New Roman', serif;
+                background-color: #ee8616;
+                background-image: url('../images/backgroundimg.png');
+            }
+            header {
+                color: #360909;
+                text-align: center;
+                padding: 15px 0;
+            }
+            .main-section {
+                width: 70%;
+            }
+            .container {
+                display:flex;
+                border: 2px solid #444
+            }
+            nav {
+                height: 50px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            nav ul li{
+                display: inline;
+                margin: 0 15px;
+                text-align: center;
+            }
+            nav ul li a {
+                background-color: #340203;
+                color: #fdfdfd;
+                transition: color 0.2s;
+                padding: 10px;
+                border: 2px solid #3a392f;
+                margin: 5px;
+                border-radius: 5px;
+                text-decoration: none;
+            }
+            nav ul li a:hover {
+                color: #0075D7
+            }
+            .button {
+                background-color: #0074D8;
+                color: #fff020;
+                padding: 10px 15px;
+            }
+            .button:hover {
+                background-color: #0049b4
+            }
+            .center {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .container {
+                background-color: rgb(163, 47, 2);
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                padding: 10px; 
+                width: 200px; 
+                margin: auto; 
+                color: #fedfe0;
+                position: absolute;
+                top: 70%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                z-index: 1;
+            }
+            input {
+                background-color: rgb(254, 213, 131);
+            }
+
+            main {
+                padding: 2% 10% 0%;
+        }
+
+
+
+            .mainsec {
+                background-color:#340203;
+                margin-bottom: 20px;
+                padding: 10px;
+                width: 55%;
+                border:2px solid #3a392f;
+                border-radius: 5px;
+                align-items: center;
+                display: inline-block;
+                color: rgb(255, 255, 255);
+                overflow-wrap: break-word;
+                
+
+            }
+
+            .sidebar {
+            background-color: #340203;
+            margin-bottom: 20px;
+            padding: 10px;
+            width: 35%;
+            position:relative;
+            border:2px solid #3a392f;
+            border-radius: 5px;
+            display:block;  
+            color: rgb(255, 255, 255);
+            float:right;
+
+
+            }
+
+            .sidebar-align {
+                align-items: center;
+            }
+
+            .sidebar textarea {
+                max-width: 90%;
+            }
+            
+        </style>
+        <link rel="stylesheet" href="../css/textoverimage.css">
+    </head>
+    <body>
+        <header><h1 style:>Interesting Book Catalog</h1></header>
+        <nav>
+            <ul>
+                <li><a href="/home">home</a></li>
+                <li><a href="/catalog">catalog</a></li>
+                <li><a href="/bookchart">book chart</a></li>
+                <li><a href="/about">about us</a></li>
+                <li><a href="/help">help</a></li>
+            </ul>
+        </nav>
+        
+            <div class="image-container">
+                <img src="../images/rowofbooks.png" alt="rowofbooks" class="center" width="1200" height="150">
+                <div class="overlay-text">About Us</div>
+            </div>
+            <main>
+    
+                <section class="mainsec">
+                    <h2>Welcome to Interesting book catalog &#128218;</h2>
+                    <p>  We're the ideal haven for bookworms and those interested in discovering new literary gems to discover new books. We offer a diverse array of books from any category you can name. Here, you'll also find detailed descriptions of the books and be able to purchase one place all in a single place. We also want to bring a sense of community to our catalog, so you will also be able to reccomend other books to people and get back recommendations from others. Users can in a click of a button, discover a completly new and random book, or find fascinating book-related statistics. So what are you waiting for? Dive into a new book with us!</p>                  
+                </section>
+
+                <section class="sidebar">
+                    <h2>Why Interesting Book Catalog?</h2>
+                    <p> We were constantly tired of having to rummange through several sites just to find information about books, so that is why we came up with Interesting Book Catalog. We hope that we can help others who deal with the same issue, so our solution is a one-stop destination for individuals to find anything related to reading.</p>                  
+                </section>
+        </main>
+        
+    </body>
+</html>

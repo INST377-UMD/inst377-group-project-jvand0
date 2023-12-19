@@ -1,0 +1,98 @@
+<html>
+    <head>
+        <style>
+            body {
+                font-family: 'Times New Roman', serif;
+                background-color: #ee8616;
+                background-image: url('../images/backgroundimg.png');
+                text-align: center;
+            }
+            header {
+                color: #360909;
+                text-align: center;
+                padding: 15px 0;
+            }
+            .main-section {
+                width: 70%;
+            }
+            .container {
+                display:flex;
+                border: 2px solid #444
+            }
+            nav {
+                height: 50px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            nav ul li{
+                display: inline;
+                margin: 0 15px;
+                text-align: center;
+            }
+            nav ul li a {
+                background-color: #340203;
+                color: #fdfdfd;
+                transition: color 0.2s;
+                padding: 10px;
+                border: 2px solid #3a392f;
+                margin: 5px;
+                border-radius: 5px;
+                text-decoration: none;
+            }
+            nav ul li a:hover {
+                color: #0075D7
+            }
+            .button {
+                background-color: #0074D8;
+                color: #fff020;
+                padding: 10px 15px;
+            }
+            .button:hover {
+                background-color: #0049b4
+            }
+            .center {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .container {
+                background-color: rgb(163, 47, 2);
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                padding: 10px; 
+                width: 200px; 
+                margin: auto; 
+                color: #fedfe0;
+                position: absolute;
+                top: 70%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                z-index: 1;
+            }
+            input {
+                background-color: rgb(254, 213, 131);
+            }
+        </style>
+         <link rel="stylesheet" href="../css/textoverimage.css">
+    </head>
+    <body>
+        <header><h1 style:>Interesting Book Catalog</h1></header>
+        <nav>
+            <ul>
+                <li><a href="/home">home</a></li>
+                <li><a href="/catalog">catalog</a></li>
+                <li><a href="/bookchart">book chart</a></li>
+                <li><a href="/about">about us</a></li>
+                <li><a href="/help">help</a></li>
+            </ul>
+        </nav>
+        <div class="image-container">
+            <img src="../images/rowofbooks.png" alt="rowofbooks" class="center" width="1200" height="150">
+            <div class="overlay-text">Home</div>
+        </div>
+        <h1>Welcome to Interesting Book Catalog!</h1>
+    </body>
+</html>
