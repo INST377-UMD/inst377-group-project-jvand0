@@ -20,7 +20,7 @@ and Mac. Mobile users may run our site as well, however, they may encounter
 challenges with website display and interaction. The site works best on Google
 Chrome and other browsers may face limited functionality.
 
-## Link to User Manual: ##
+## User Manual: ##
 1. To use the site, go to http://localhost:3000/ and add in the page you want to visit after the /, or use the navigation buttons at the top of the page.
 2. Page link directory
     - http://localhost:3000/ - sign-in page
